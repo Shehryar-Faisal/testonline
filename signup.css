@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:wght@200&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+   /* Ensure the page takes up at least the viewport height */
+  }
+
+
+.navbar{
+    background-color: rgba(245, 0, 0, 0.8);
+    box-shadow: 7px 10px 24px 0px rgba(255, 71, 31, 0.22);
+    display: flex;
+    height: 120px;
+    align-items: center;
+    justify-content: space-around;
+    font-family: inter;
+    gap: 20px;
+   
+
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+.kfc{
+    /* border: 1px solid black; */
+
+    width: 40%;
+}
+.left-items{
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    gap: 80px;
+    justify-content: space-evenly;
+}
+.right-items{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.rimg1 img{
+    width: 63px;
+    margin-top: 4px;
+    
+    height: 63px;
+}
+.nav1{
+
+    margin-top: 10px;
+}
+.rimg2{
+    border-radius: 100%;
+    box-shadow: 0px 2.5px 0.5px  #202329;
+}
+
+
+
+body{
+    background-color: rgba(245, 0, 0, 0.8);
+}
+.maindiv{
+    border: 1px solid black;
+    width: 65%;
+    height: 350px;
+    margin-left: 250px;
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+}
+.arrow{
+    border: 1px solid black;
+    height: max-content;
+    margin-top: 40px;
+    border-radius: 50%;
+    padding: 7px;
+    background-color: rgba(245, 0, 0, 0.8);
+}
+.fa-chevron-left {
+    font-size: 28px;
+  }
+.lastdiv{
+    /* border: 1px solid black; */
+    width: 40%;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 230px;
+    margin-top: 50px;
+}
+.lastdiv h1{
+    font-size: 40px;
+    padding: 0%;
+    margin: 0%;
+    /* color: white; */
+}
+.form-container{
+    margin-bottom: 30px;
+}
+.firstsp img{
+    /* border: 1px solid black; */
+    height: 348px;
+}
+.form-container p{
+    font-size: 23px;
+    /* color: white; */
+}
+.phone-input,
+.login-button{
+    width: 349px;
+    height: 35px;
+    color: white;
+}
+.phone-input{
+    background-color: black;
+    font-size: 20px;
+    border: none;
+}
+.login-button{
+    width: 353px;
+    background-color: rgba(245, 0, 0, 0.8);
+    border: none;
+}
